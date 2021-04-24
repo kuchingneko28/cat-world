@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Oxygen", sans-serif;
+}
+.card {
+  width: 70%;
+  margin: auto;
+}
+.home {
+  font-weight: 700;
+}
+.nav-link {
+  border-bottom: 2px, solid #126e82;
+}
+.navbar-custom {
+  background: #126e82;
+}
+.colm {
+  margin-left: 1.5em;
+}
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+.jumbotron {
+  color: white;
+  background: rgb(18, 110, 130);
+  background: linear-gradient(
+    180deg,
+    rgba(18, 110, 130, 1) 0%,
+    rgba(185, 255, 209, 1) 100%
+  );
+  padding-top: 2rem;
+}
+.about {
+  color: #126e82;
+}
+.profile {
+  border-radius: 10px;
+  width: 45%;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+.gallery {
+  color: #126e82;
+  background: #b9ffd1;
+}
+.quotes,
+.quotes-from {
+  font-weight: 700;
+  font-style: italic;
+}
+.gallery .card {
+  color: #126e82;
+  background: white;
+}
+.btn {
+  background: #126e82;
+  border: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+.btn:hover {
+  border: none;
+  background: #399eb4;
+}
+.title {
+  margin-top: 150px;
+}
+
+.btn,
+a {
+  cursor: pointer;
+}
+.kanan {
+  transform: translateX(-60%);
+}
+.kiri {
+  transform: translateX(60%);
+}
+
+.kanan,
+.kiri {
+  transition: opacity 250ms ease-in, transform 250ms ease-in;
+  opacity: 0;
+}
+.kanan.appear {
+  transform: translateX(-30%);
+  opacity: 1;
+}
+.kiri.appear {
+  transform: translateX(30%);
+  opacity: 1;
+}
+footer {
+  font-size: 20px;
+  color: #126e82;
+  background: #b9ffd1;
+  padding: 40px;
+  text-align: center;
+}
+footer a {
+  font-weight: 700;
+  font-style: bold;
+  text-decoration: none;
+}
+h1,
+h2 {
+  font-weight: 700;
+  font-style: bold;
+}
