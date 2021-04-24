@@ -53,11 +53,18 @@ body {
 }
 .gallery {
   color: #126e82;
-  background: #b9ffd1;
+  background: rgb(185, 255, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(185, 255, 209, 1) 60%,
+    rgba(18, 110, 130, 1) 100%
+  );
 }
 .quotes,
 .quotes-from {
-  font-weight: 700;
+  color: #b9ffd1;
+  font-weight: 400;
+  font-size: 1.5rem;
   font-style: italic;
 }
 .gallery .card {
@@ -95,21 +102,22 @@ a {
   opacity: 0;
 }
 .kanan.appear {
-  transform: translateX(-30%);
+  transform: translateX(-35%);
   opacity: 1;
 }
 .kiri.appear {
-  transform: translateX(30%);
+  transform: translateX(35%);
   opacity: 1;
 }
 footer {
   font-size: 20px;
-  color: #126e82;
-  background: #b9ffd1;
+  color: #b9ffd1;
+  background: #126e82;
   padding: 40px;
   text-align: center;
 }
 footer a {
+  color: #b9ffd1;
   font-weight: 700;
   font-style: bold;
   text-decoration: none;
