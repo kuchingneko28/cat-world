@@ -91,7 +91,7 @@ a {
 
 .kanan,
 .kiri {
-  transition: opacity 250ms ease-in, transform 250ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
   opacity: 0;
 }
 .kanan.appear {
