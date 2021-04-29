@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
 html,
 body {
-  max-width: 100%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 body {
   font-family: "Oxygen", sans-serif;
@@ -11,12 +9,6 @@ body {
 .card {
   width: 70%;
   margin: auto;
-}
-.home {
-  font-weight: 700;
-}
-.nav-link {
-  border-bottom: 2px, solid #126e82;
 }
 .navbar-custom {
   background: #126e82;
@@ -45,11 +37,13 @@ body {
 .about {
   color: #126e82;
 }
+
 .profile {
-  border-radius: 10px;
-  width: 45%;
-  margin-top: 50px;
-  margin-right: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 .gallery {
   color: #126e82;
@@ -82,7 +76,12 @@ body {
   background: #399eb4;
 }
 .title {
-  margin-top: 150px;
+  margin-top: 20px;
+}
+.description {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto 0 auto;
 }
 
 .btn,
@@ -90,23 +89,23 @@ a {
   cursor: pointer;
 }
 .kanan {
-  transform: translateX(-60%);
+  transform: translateX(-50%);
 }
 .kiri {
-  transform: translateX(60%);
+  transform: translateX(50%);
 }
 
 .kanan,
 .kiri {
-  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 350ms ease-in, transform 400ms ease-in;
   opacity: 0;
 }
 .kanan.appear {
-  transform: translateX(-35%);
+  transform: translateX(0%);
   opacity: 1;
 }
 .kiri.appear {
-  transform: translateX(35%);
+  transform: translateX(0%);
   opacity: 1;
 }
 footer {
@@ -125,5 +124,4 @@ footer a {
 h1,
 h2 {
   font-weight: 700;
-  font-style: bold;
 }
